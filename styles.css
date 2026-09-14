@@ -23,8 +23,8 @@
  * Change "nord" to whatever theme you set on <html>.
  */
 [data-theme='nord'] {
-  /* --color-primary: #F48C06; */
-  /* --color-accent: #9D020; */
+   --color-primary: #F48C06; 
+   --color-accent: #9D0208; 
   --color-black: #03071e;
   --color-yellow: #FFBA08;
   --color-red: #D00000;
@@ -32,6 +32,14 @@
 
 }
 
+.hero {
+   background-image: url("https://thewaffleaffair.com/wp-content/uploads/2025/04/Waffle-House-brand.jpeg");
+}
+.hero h1 {
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+  font-size: 100px;
+color:var(--color-yellow)
+}
 /* TYPE
  *
  * Two faces: one for headings, chosen for tone; one for body, chosen for
