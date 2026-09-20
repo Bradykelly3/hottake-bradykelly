@@ -32,6 +32,13 @@
 
 }
 
+body{
+  background-color: var(--color-primary);
+}
+footer{
+  background-color: var(--color-black);
+  
+}
 .hero {
    background-image: url("https://thewaffleaffair.com/wp-content/uploads/2025/04/Waffle-House-brand.jpeg");
 }
